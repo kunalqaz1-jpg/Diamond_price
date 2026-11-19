@@ -13,7 +13,7 @@ st.set_page_config(
 
 st.title("Diamonds Quality Prediction")
 ##Data Load
-df = pd.read_csv("C:\\Users\\Roop\\Downloads\\diamonds.csv")
+df = pd.read_csv("diamonds.csv")
 df = df.drop(columns=["Unnamed: 0"])
 #st.write(df.head())
 #st.table(df.head())
